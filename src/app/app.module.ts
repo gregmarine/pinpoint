@@ -18,7 +18,7 @@ import { IonicStorageModule } from '@ionic/storage';
   entryComponents: [],
   imports: [
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyBvgkwMQD2e7VavBGMa9xjtnhcZE5EqDT4'
+      apiKey: '{API KEY GOES HERE}'
     }),
     IonicStorageModule.forRoot({ name: 'pinpoint' }),
     BrowserModule, IonicModule.forRoot(), AppRoutingModule],
